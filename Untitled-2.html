@@ -61,11 +61,7 @@ body {
   padding: 30px;
   background-color: var(--color-bg);
   color: var(--color-fg);
-}
-:root {
-  --color-bg: #ffffff;
-  --color-fg: #000000;
-  --transition-speed: 0.5s;
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 [data-theme="light"] {
    --color-bg: #ffffff;
